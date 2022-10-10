@@ -1,0 +1,34 @@
+GET "/books"  return all books
+
+GET "/books/{id}"  return  book by Id
+
+POST "/books" add book 
+
+   Parameters           Description
+     
+     title                 string
+     
+     author                string
+
+     kind_of_book          string
+
+     price                 string
+
+
+PUT  "/books/{id}"  update book by Id
+
+   Parameters           Description
+     
+     title                 string
+     
+     author                string
+
+     kind_of_book          string
+
+     price                 string
+
+DELETE "/books/{id}"  delete book by Id
+
+   
+
+
