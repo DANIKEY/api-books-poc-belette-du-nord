@@ -21,6 +21,14 @@ $ npm i -g @nestjs/cli
 $ npm install
 ```
 
+## config api books
+
+```bash
+open folder "src/"
+edit file "app.module.ts"
+config database username password
+```
+
 ## Running the app
 
 ```bash
